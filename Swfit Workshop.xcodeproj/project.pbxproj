@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5879A08C28EA04D600184BCB /* TabHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879A08B28EA04D600184BCB /* TabHome.swift */; };
+		5879A08E28EA05DC00184BCB /* CheckInShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879A08D28EA05DC00184BCB /* CheckInShow.swift */; };
 		58C8822828E0B4F80070F3DF /* Swfit_WorkshopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C8822728E0B4F80070F3DF /* Swfit_WorkshopApp.swift */; };
 		58C8822A28E0B4F80070F3DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C8822928E0B4F80070F3DF /* ContentView.swift */; };
 		58C8822C28E0B4F90070F3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C8822B28E0B4F90070F3DF /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5879A08B28EA04D600184BCB /* TabHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHome.swift; sourceTree = "<group>"; };
+		5879A08D28EA05DC00184BCB /* CheckInShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInShow.swift; sourceTree = "<group>"; };
 		58C8822428E0B4F80070F3DF /* Swfit Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swfit Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C8822728E0B4F80070F3DF /* Swfit_WorkshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swfit_WorkshopApp.swift; sourceTree = "<group>"; };
 		58C8822928E0B4F80070F3DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		58C8821B28E0B4F80070F3DF = {
 			isa = PBXGroup;
 			children = (
+				5879A08D28EA05DC00184BCB /* CheckInShow.swift */,
+				5879A08B28EA04D600184BCB /* TabHome.swift */,
 				58C8822628E0B4F80070F3DF /* Swfit Workshop */,
 				58C8822528E0B4F80070F3DF /* Products */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5879A08C28EA04D600184BCB /* TabHome.swift in Sources */,
+				5879A08E28EA05DC00184BCB /* CheckInShow.swift in Sources */,
 				58C8822A28E0B4F80070F3DF /* ContentView.swift in Sources */,
 				58C8822828E0B4F80070F3DF /* Swfit_WorkshopApp.swift in Sources */,
 				58C8823628E0C5B60070F3DF /* SwiftUIView.swift in Sources */,

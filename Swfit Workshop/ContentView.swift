@@ -19,7 +19,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .padding(.bottom, 0.0)
-                    
+                
                 HStack{
                     Button(action: {signIn()}, label:  {Image(systemName: "person.crop.circle.badge.checkmark.fill")
                             .renderingMode(.original)
@@ -37,23 +37,37 @@ struct ContentView: View {
                         .padding(50.0)})
                     .buttonStyle(.plain)
                 }
-                .padding(.vertical, 200.0)
-               
+                .padding(.vertical, 200)
+                
+                
             }
-            
         }
         
     }
     
+    
+    
     func signIn() {
         print("check in")
+//        TabView {
+//            .tabItem {
+//                Text("Hello")
+//                Image(systemName: "message.fill")}}
+//        Text("Message")
     }
+    
+    
     
     func signOut() {
         print("check out")
     }
     
 }
+
+
+
+
+
 
 
 
