@@ -11,32 +11,31 @@ struct TabHome: View {
     @State var currentTab = 0
     
     var body: some View {
-        TabView(selection: $currentTab) {
+        TabView(selection: $currentTab){
             ContentView()
-            Text("V2")
                 .tabItem {
                     Label {
-                        Text("Calendar")
+                        Text("Login")
                     } icon: {
-                        Image(systemName: "calendar")
+                        Image(systemName: "rectangle.portrait.and.arrow.right")
                     }
                 }
-            Text("v3")
-                .tabItem {
-                    Label {
-                        Text("Hellop")
-                    } icon: {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                }
-                .tabItem {
-                    Label {
-                        Text("Home")
-                    } icon: {
-                        Image(systemName: "homekit")
-                    }
-                    
-                }
+                    Text("Calander")
+                        .tabItem {
+                            Label {
+                                Text("Calander")
+                            } icon: {
+                                Image(systemName: "calendar")
+                            }
+                        }
+                    Text("History")
+                        .tabItem {
+                            Label {
+                                Text("History")
+                            } icon: {
+                                Image(systemName: "gobackward")
+                            }
+                        }
             
             Text("Availability")
                 .tabItem {
@@ -46,20 +45,19 @@ struct TabHome: View {
                         Image(systemName: "clock")
                     }
                 }
-            Text("V2")
+            Text("Waitlist")
                 .tabItem {
                     Label {
-                        Text("T1")
+                        Text("Waitlist")
                     } icon: {
-                        Image(systemName: "square.and.arrow.up")
+                        Image(systemName: "list.number")
                     }
                 }
+                }
+        }
+}
+    struct TabHome_Previews: PreviewProvider {
+        static var previews: some View {
+            TabHome()
         }
     }
-}
-
-struct TabHome_Previews: PreviewProvider {
-    static var previews: some View {
-        TabHome()
-    }
-}
