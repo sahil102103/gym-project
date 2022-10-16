@@ -38,12 +38,12 @@ struct TabHome: View {
                     
                 }
             
-            Text("V2")
+            Text("Availability")
                 .tabItem {
                     Label {
-                        Text("T1")
+                        Text("Availability")
                     } icon: {
-                        Image(systemName: "square.and.arrow.up")
+                        Image(systemName: "clock")
                     }
                 }
             Text("V2")
