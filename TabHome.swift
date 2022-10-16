@@ -16,9 +16,9 @@ struct TabHome: View {
             Text("V2")
                 .tabItem {
                     Label {
-                        Text("T1")
+                        Text("Calendar")
                     } icon: {
-                        Image(systemName: "square.and.arrow.up")
+                        Image(systemName: "calendar")
                     }
                 }
             Text("v3")
